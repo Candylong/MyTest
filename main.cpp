@@ -9,6 +9,7 @@ extern int multi(int a, int b);
 int main(int argc, char** argv)
 {
     std::cout << "hahahhhahhahhahha" <<std::endl;
+    int* p = new int(10);
     int result = multi(1, 2);
     std::cout<< "result: "<< result <<std::endl;
     std::cout<< "hello world!"<<std::endl;
