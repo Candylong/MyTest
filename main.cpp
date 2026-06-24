@@ -12,6 +12,8 @@ int main(int argc, char** argv)
     int* p = new int(10);
     delete p;
     delete p;
+    p = nullptr;
+    delete p;
     int result = multi(1, 2);
     std::cout<< "result: "<< result <<std::endl;
     std::cout<< "hello world!"<<std::endl;
