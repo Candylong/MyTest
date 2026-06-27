@@ -10,6 +10,7 @@ extern int multi(int a, int b);
 void display() {
     int* data = nullptr;
     *data = 6;
+    *data = 8;
 }
 
 int main(int argc, char** argv)
