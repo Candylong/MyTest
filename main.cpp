@@ -11,6 +11,7 @@ void display() {
     int* data = nullptr;
     *data = 6;
     *data = 8;
+    *data = 9;
 }
 
 int main(int argc, char** argv)
