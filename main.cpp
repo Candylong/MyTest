@@ -13,6 +13,8 @@ void display() {
     *data = 8;
     *data = 9;
     *data = 10;
+    data = nullptr;
+    *data = 11;
 }
 
 int main(int argc, char** argv)
