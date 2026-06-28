@@ -3,6 +3,7 @@
 //#include "third.h"
 int sum(int a, int b)
 {
+    int* p = new int(10);
     return a + b;
 }
 extern int multi(int a, int b);
